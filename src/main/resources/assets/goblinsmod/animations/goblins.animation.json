@@ -1,0 +1,246 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.goblinmod.walking_animation": {
+			"animation_length": 0.84,
+			"bones": {
+				"ArmLeftBone": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.44": {
+							"vector": [0, 0, 0]
+						},
+						"0.64": {
+							"vector": [0, -5, 0]
+						},
+						"0.84": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"ArmRightBone": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.28": {
+							"vector": [0, 10, 0]
+						},
+						"0.44": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"LeftLegBone": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.28": {
+							"vector": [-55, 0, 0],
+							"easing": "easeInSine"
+						},
+						"0.44": {
+							"vector": [0, 0, 0],
+							"easing": "easeInSine"
+						},
+						"0.64": {
+							"vector": [37.5, 0, 0],
+							"easing": "easeInSine"
+						},
+						"0.84": {
+							"vector": [0, 0, 0],
+							"easing": "easeInSine"
+						}
+					}
+				},
+				"RightLegBone": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.28": {
+							"vector": [17.5, 0, 0],
+							"easing": "easeInSine"
+						},
+						"0.44": {
+							"vector": [0, 0, 0],
+							"easing": "easeInSine"
+						},
+						"0.64": {
+							"vector": [-42.5, 0, 0],
+							"easing": "easeInSine"
+						},
+						"0.84": {
+							"vector": [0, 0, 0],
+							"easing": "easeInSine"
+						}
+					}
+				},
+				"BodyBone": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.28": {
+							"vector": [0, 10, 0]
+						},
+						"0.44": {
+							"vector": [0, 0, 0]
+						},
+						"0.64": {
+							"vector": [0, -5, 0]
+						},
+						"0.84": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"HeadBone": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.28": {
+							"vector": [0, 12.5, 0]
+						},
+						"0.44": {
+							"vector": [0, 0, 0]
+						},
+						"0.64": {
+							"vector": [0, -5, 0]
+						},
+						"0.84": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"Root": {
+					"position": {
+						"vector": [0, 6, 0]
+					},
+					"scale": {
+						"vector": [1.9, 1.9, 2.3]
+					}
+				}
+			}
+		},
+		"animation.goblinmod.idle_animation": {
+			"loop": true,
+			"animation_length": 0.72,
+			"bones": {
+				"BodyBone": {
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"0.36": {
+							"vector": [1.1, 1, 1]
+						},
+						"0.72": {
+							"vector": [1, 1, 1]
+						}
+					}
+				},
+				"HeadBone": {
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"0.36": {
+							"vector": [1.1, 1.1, 1.1]
+						},
+						"0.72": {
+							"vector": [1, 1, 1]
+						}
+					}
+				},
+				"ArmLeftBone": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.36": {
+							"vector": [-2.5, 0, 5]
+						},
+						"0.72": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"ArmRightBone": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.36": {
+							"vector": [5, 0, -2.5]
+						},
+						"0.72": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"Root": {
+					"position": {
+						"vector": [0, 6, 0]
+					},
+					"scale": {
+						"vector": [1.9, 1.9, 2.3]
+					}
+				}
+			}
+		},
+		"animation.goblinmod.size": {
+			"loop": true,
+			"bones": {
+				"Root": {
+					"position": {
+						"vector": [0, 6, 0]
+					},
+					"scale": {
+						"vector": [1.9, 1.9, 2.3]
+					}
+				}
+			}
+		},
+		"animation.goblinmod.attackanim": {
+			"animation_length": 1.4,
+			"bones": {
+				"ArmLeftBone": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, -65, -35]
+						},
+						"0.68": {
+							"vector": [-92.5, 22.5, -37.5],
+							"easing": "easeInExpo"
+						},
+						"1.4": {
+							"vector": [0, 0, 0],
+							"easing": "easeInOutExpo"
+						}
+					}
+				},
+				"ArmRightBone": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 37.5, 45]
+						},
+						"0.68": {
+							"vector": [-87.5, -15, 32.5],
+							"easing": "easeInExpo"
+						},
+						"1.4": {
+							"vector": [0, 0, 0],
+							"easing": "easeInExpo"
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
